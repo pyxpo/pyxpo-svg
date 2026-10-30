@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "nativeContract": 2,
+  "name": "svg",
+  "native": "Svg",
+  "ios": {"classes": ["SvgModule"]},
+  "android": {
+    "namespace": "dev.pyxpo.modules.svg",
+    "classes": ["dev.pyxpo.modules.svg.SvgModule"],
+    "minSdk": 24,
+    "dependencies": []
+  }
+}
